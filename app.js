@@ -1,1 +1,3 @@
-const items = document.querySelectorAll('.number');
+const items = [...document.querySelectorAll('.number')];
+
+console.log(items);
