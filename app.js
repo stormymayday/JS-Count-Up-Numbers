@@ -7,3 +7,9 @@ items.forEach((item) => {
     console.log(item);
 
 });
+
+// updateCount - start
+const updateCount = (el) => {
+
+};
+// updateCount - end
