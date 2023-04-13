@@ -1,1 +1,1 @@
-console.log(`hello`);
+const items = document.querySelectorAll('.number');
