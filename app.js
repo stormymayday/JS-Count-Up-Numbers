@@ -10,6 +10,8 @@ const updateCount = (el) => {
     // Setting the increment
     const increment = Math.ceil(value / 1000);
 
+    let initalValue = 0;
+
 };
 // updateCount - end
 
