@@ -4,7 +4,8 @@ const items = [...document.querySelectorAll('.number')];
 // updateCount - start
 const updateCount = (el) => {
 
-    console.log(el);
+    // Getting the value and converting it to a number
+    const value = parseInt(el.dataset.value);
 
 };
 // updateCount - end
