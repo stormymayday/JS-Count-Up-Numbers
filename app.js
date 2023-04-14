@@ -7,6 +7,9 @@ const updateCount = (el) => {
     // Getting the value and converting it to a number
     const value = parseInt(el.dataset.value);
 
+    // Setting the increment
+    const increment = Math.ceil(value / 1000);
+
 };
 // updateCount - end
 
