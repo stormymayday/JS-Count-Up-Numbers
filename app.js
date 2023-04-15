@@ -24,6 +24,10 @@ const updateCount = (el) => {
             // Setting the element's textContent to value
             el.textContent = `${value}+`;
 
+            // Clearing the interval
+            clearInterval(increaseCount);
+
+
         }
 
         // Setting the element's textContent to initalValue
