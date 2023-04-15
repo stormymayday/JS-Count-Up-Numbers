@@ -18,6 +18,9 @@ const updateCount = (el) => {
         // Increasing initialValue by increment
         initalValue += increment;
 
+        // Setting the element's textContent
+        el.textContent = initalValue;
+
     }, 1);
 
 };
