@@ -19,7 +19,7 @@ const updateCount = (el) => {
         initalValue += increment;
 
         // Setting the element's textContent
-        el.textContent = initalValue;
+        el.textContent = `${initalValue}+`;
 
     }, 1);
 
