@@ -27,6 +27,7 @@ const updateCount = (el) => {
             // Clearing the interval
             clearInterval(increaseCount);
 
+            return;
 
         }
 
