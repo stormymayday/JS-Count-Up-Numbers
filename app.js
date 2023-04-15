@@ -18,6 +18,11 @@ const updateCount = (el) => {
         // Increasing initialValue by increment
         initalValue += increment;
 
+        // Checking if initialValue is greater than value
+        if (initalValue > value) {
+
+        }
+
         // Setting the element's textContent
         el.textContent = `${initalValue}+`;
 
