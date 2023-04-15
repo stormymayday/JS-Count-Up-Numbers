@@ -10,9 +10,13 @@ const updateCount = (el) => {
     // Setting the increment
     const increment = Math.ceil(value / 1000);
 
+    // Setting the initialValue
     let initalValue = 0;
 
     const increaseCount = setInterval(() => {
+
+        // Increasing initialValue by increment
+        initalValue += increment;
 
     }, 1);
 
