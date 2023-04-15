@@ -12,6 +12,10 @@ const updateCount = (el) => {
 
     let initalValue = 0;
 
+    const increaseCount = setInterval(() => {
+
+    }, 1);
+
 };
 // updateCount - end
 
